@@ -1,50 +1,13 @@
 {
-    "data": [
-        {
-            "id": "1372919063970713611",
-            "text": "- Vaccine administration 🏥\n- Smart buildings🧠🏙\n- Hybrid #education in the 21st century 📚🧑‍💻\n\nCheck out below these great stories &amp; more in our week in review ⬇️ https://t.co/djop6wFQPG"
-        },
-        {
-            "id": "1372882545386356740",
-            "text": "You don't have to attend Hogwarts to attend an enchanted classroom. See how #Webex and @CiscoNetAcad are making virtual learning magical for all students. ⏬  https://t.co/ktZLTvdkJE"
-        },
-        {
-            "id": "1372716450906005504",
-            "text": "Where shopping online and remote workforce were once “nice-to-haves,” they are now mission critical. How are you empowering your #retail remote workers?"
-        },
-        {
-            "id": "1372689749354246148",
-            "text": "RT @ChuckRobbins: Thrilled to see the progress we are making with the House passage of the Dream Act. It’s so important that we protect the…"
-        },
-        {
-            "id": "1372689664130215943",
-            "text": "RT @FranKatsoudas: We at @Cisco applaud the House of Representatives for passing permanent legislative protection for #Dreamers. Their tale…"
-        },
-        {
-            "id": "1372654185561219072",
-            "text": "@amakhlouf @marcapcar But you can always have your desk and a smile. 😉Or your desk can help the world to sing... in perfect harmony.🎶"
-        },
-        {
-            "id": "1372653645154582528",
-            "text": "@AisforAustin 😍😍😍 Wish we could all press an \"easy\" button to have a #WFH set up like this one."
-        },
-        {
-            "id": "1372640983100358659",
-            "text": "Cisco has pledged to positively impact 1 billion people by the year 2025. We’re committed to powering an Inclusive Future, where anything is possible. #BeTheBridge https://t.co/IwCUTqS0hQ"
-        },
-        {
-            "id": "1372614712253423619",
-            "text": "@MicheleDGuel Congratulations on 25 years! 💪 Here's to many more. 🎉"
-        },
-        {
-            "id": "1372614083611009028",
-            "text": "@aviosAdventurer We can *spot* that you have an excellent #WFH space! 👏🟢"
-        }
-    ],
-    "meta": {
-        "oldest_id": "1372614083611009028",
-        "newest_id": "1372919063970713611",
-        "result_count": 10,
-        "next_token": "7140dibdnow9c7btw3w3xyyhvtoi2siko0c2u96zl1bnc"
-    }
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
