@@ -1,13 +1,8 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
+  "Tweet": {
+    "text": "string",
+    "id": "int",
     "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+    "createdAt": "date"
   }
 }
