@@ -1,6 +1,6 @@
 {
   "Tweet": {
-    "text": "string",
+    "body": "string",
     "id": "int",
     "published": "boolean",
     "createdAt": "date"
